@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-image: url(ana.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:center;
+    display: grid;
+    place-items: center;
+}
+.carousel{
+    margin: auto;
+    margin-top: 50px;
+    width: 90%;
+    border: 5px rgb(20, 22, 61) solid;
+    border-radius: 2rem;
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+
+}
+.carousel::-webkit-scrollbar{
+    display: none;   
+}
+.group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    padding-right: 1rem;
+    animation: spin 45s infinite linear;
+}
+.card{
+    flex: 0 0 5em;
+    height: 7em;
+    padding: 1em;
+    background: linear-gradient(135deg, #FFE259, #FFA751);
+    font-size: 3rem ;
+    border-radius: 2rem;
+    text-align: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+}
+@keyframes spin{
+    from {translate :0;}
+    to {translate :-100%;}
+}
+
+.head {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-style: italic;
+      border: 10px solid beige;
+      border-radius: 3rem;
+      box-shadow: 5px 5px 5px 0 rgb(80, 70, 50);
+      background-color: beige;
+      padding: 20px;
+      text-align: center;
+    }
+.img1{
+    width: 250px;
+    height: 250px;
+    align-self: start;
+    border-radius: 1rem;
+}
+.p1{
+    font-size: 24px;
+    font-style: italic;
+    font-family: fantasy;
+    justify-content: center;
+    align-self: start;
+}
+.p2{
+    font-size: 19px;
+    font-style: italic;
+    font-family: fantasy;
+    justify-content: center;
+    align-self: start;
+}
+.p3{
+    font-size: 22px;
+    font-style: italic;
+    font-family: fantasy;
+    justify-content: center;
+    align-self: start;
+}
+.p4{
+    font-size: 18px;
+    font-style: italic;
+    font-family: fantasy;
+    justify-content: center;
+    align-self: start;
+}
+.p5{
+    font-size: 18px;
+    font-style: italic;
+    font-family: fantasy;
+    justify-content: center;
+    align-self: start;
+}
+.p6{
+    font-size: 16px;
+    font-style: italic;
+    font-family: fantasy;
+    justify-content: center;
+    align-self: start;
+}
+.img2{
+    width: 230px;
+    height: 190px;
+    align-self: start;
+    border-radius: 1rem;
+}
